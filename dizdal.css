@@ -1,0 +1,181 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.6;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Header and Logo */
+header {
+  background-color: #121212;
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.logo p {
+  font-size: 1rem;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+/* Sections */
+.about-section, .experience-section, .skills-section, .languages-section, .contact-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* About */
+.about-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+/* Experience */
+.experience {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #292929;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #888;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* Skills and Languages */
+.skills-list, .languages-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li, .languages-list li {
+  background-color: #212121;
+  color: #ffd700;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+/* Contact */
+.contact-section a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-section a:hover {
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #121212;
+  color: #888;
+  padding: 1rem;
+}
+
+/* ... Existing CSS ... */
+
+/* Photo Section */
+/* ... Önceki CSS Kuralları ... */
+
+/* Photo Section */
+/* ... Existing CSS ... */
+
+/* Photo Section */
+.photo-section {
+  text-align: center;
+  background-color: #121212;
+  padding: 50px 0; /* Adjust the padding as needed */
+  color: #fff;
+}
+
+.photo-wrapper img {
+  max-width: 150px; /* Adjust the width of the photo */
+  border-radius: 15px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* ... Existing CSS ... */
+
+/* Licenses Section */
+.licenses-section {
+  text-align: center;
+  background-color: #292929;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.licenses-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.licenses-list li {
+  background-color: #212121;
+  color: #ffd700;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+/* ... Rest of the CSS ... */
+
+/* Mobile Styles */
+/* ... Previous CSS Rules ... */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav-links.show {
+      display: block;
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+  .hamburger {
+      display: block;
+  }
+
+  .hamburger .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px auto;
+  }
+
+  /* Adjust padding and font sizes for smaller screens */
+  .about-content, .experience, .licenses-list li, .skills-list li, .languages-list li {
+      padding: 10px;
+      font-size: 14px;
+  }
+}
