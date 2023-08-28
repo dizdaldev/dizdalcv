@@ -186,12 +186,15 @@ footer {
 /* ... Previous CSS Rules ... */
 
 /* Social Icons */
+/* Social Icons */
 .social-icons {
     display: flex;
-    justify-content: flex-end; /* Move icons to the end of the container */
-    align-items: center; /* Center icons vertically */
-    height: 100%; /* Set the height of the container */
-    padding-right: 20px; /* Add some right padding */
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: 0; /* Set margin-right to 0 to center the icons */
 }
 
 .social-icons a img {
